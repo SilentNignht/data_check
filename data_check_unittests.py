@@ -14,11 +14,11 @@ def test_data_check_type():
 
 
 def test_data_check_len():
-    a = {"ad_network": "FOO",
+    b = {"ad_network": "FOO",
          "date": "2019-06-05",
          "app_name": "LINETV",
          "unit_id": "55665201314",
          "revenue": "0.00365325",
          "imp": "23"}
 
-    assert data_check(a) == "資料短缺"
+    assert data_check(b) == "資料短缺"
