@@ -1,5 +1,5 @@
 from data_check import data_check
-import pytest
+
 
 def test_data_check_type():
     a = {"ad_network": "FOO",
