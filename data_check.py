@@ -17,5 +17,5 @@ def data_check(data):
 
 def data_check_null(data):
     # 檢查資料是否遺漏
-    df = pd.DataFrame(test, index=[0])
+    df = pd.DataFrame(data, index=[0])
     print(df.isnull().sum(axis=0))
